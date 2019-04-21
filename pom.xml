@@ -6,10 +6,12 @@
 
     <groupId>com.duobei.code</groupId>
     <artifactId>AutoTest</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>Selenium</module>
+        <module>Appium</module>
     </modules>
 
 

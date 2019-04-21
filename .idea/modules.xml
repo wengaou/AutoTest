@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Appium/Appium.iml" filepath="$PROJECT_DIR$/Appium/Appium.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/AutoTest02.iml" filepath="$PROJECT_DIR$/.idea/AutoTest02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Selenium/Selenium.iml" filepath="$PROJECT_DIR$/Selenium/Selenium.iml" />
     </modules>
