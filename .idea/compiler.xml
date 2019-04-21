@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Selenium" />
+        <module name="AutoTest02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AutoTest02" target="1.5" />
       <module name="Selenium" target="1.8" />
     </bytecodeTargetLevel>
   </component>

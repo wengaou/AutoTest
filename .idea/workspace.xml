@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a968644-4b4b-4b73-b8a5-38e7492a0cec" name="Default Changelist" comment="" />
+    <list default="true" id="2a968644-4b4b-4b73-b8a5-38e7492a0cec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/AutoTest02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoTest02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/Selenium/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +42,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -112,6 +121,7 @@
         <option value="$PROJECT_DIR$/Selenium/src/main/java/com/duobei/selenium/cases/SuiteTestLogin.java" />
         <option value="$PROJECT_DIR$/Selenium/src/main/java/com/duobei/selenium/Demo.java" />
         <option value="$PROJECT_DIR$/Selenium/src/main/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -129,7 +139,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="649" />
+    <option name="x" value="246" />
     <option name="y" value="23" />
     <option name="width" value="1376" />
     <option name="height" value="877" />
@@ -148,6 +158,32 @@
               <item name="AutoTest02" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest02" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AutoTest02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest02" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest02" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest02" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest02" type="462c0819:PsiDirectoryNode" />
+              <item name="Selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,6 +201,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Selenium/driver" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -255,7 +294,7 @@
       <option name="presentableId" value="Default" />
       <updated>1555826831767</updated>
       <workItem from="1555826833162" duration="3088000" />
-      <workItem from="1555829942925" duration="708000" />
+      <workItem from="1555829942925" duration="951000" />
     </task>
     <servers />
   </component>
@@ -283,11 +322,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3796000" />
+    <option name="totallyTimeSpent" value="4039000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="29" width="1376" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="246" y="23" width="1376" height="877" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25337332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -488,7 +526,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
