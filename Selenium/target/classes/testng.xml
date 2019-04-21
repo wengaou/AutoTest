@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套件" parallel="false" thread-count="2">
+    <test name="测试用例">
+        <classes>
+            <class name="com.duobei.selenium.Demo"></class>
+        </classes>
+    </test>
+
+    <listeners>
+        <!-- 监听测试，生成测试报告 -->
+        <listener class-name="com.duobei.selenium.utils.ExtentTestNGIReporterListener"/>
+        <!-- 监听失败的用例 -->
+        <listener class-name="com.duobei.selenium.utils.RetryListener"/>
+        <!--<listener class-name="TestNGListener"/>-->
+    </listeners>
+
+</suite>
