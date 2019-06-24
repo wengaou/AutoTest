@@ -1,5 +1,6 @@
 package com.duobei.selenium.base;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.Dimension;
@@ -12,10 +13,9 @@ import org.testng.Assert;
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
+import java.text.SimpleDateFormat;
+import java.util.*;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 
 /**
@@ -38,6 +38,14 @@ public class DriverBase {
     }
 
     /**
+     * 获取driver
+     * @return
+     */
+    public WebDriver getDriver(){
+        return driver;
+    }
+
+    /**
      * 获取Url
      * @param urlText
      * @param url
@@ -46,6 +54,43 @@ public class DriverBase {
         driver.get(url);
         log.info("--->>" +urlText+ " " +url);
     }
+
+
+
+    /*--------------------------------失败截图的方法封装------------------------------------*/
+    public void takeScreenShot(){
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+        Calendar calendar = Calendar.getInstance();
+        Date date = calendar.getTime();
+        String dateStr = simpleDateFormat.format(date);
+        String path = this.getClass().getSimpleName() + "_" + dateStr + ".png";
+        takeScreenShot((TakesScreenshot) this.getDriver(),path);
+
+    }
+
+
+    public void takeScreenShot(TakesScreenshot drivername,String path){
+        String currentPath = System.getProperty("user.dir");
+        File scrFile = drivername.getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(scrFile,new File(currentPath + "\\" +path));
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            System.out.println("截图成功！");
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     /*--------------------------------操作元素的方法封装------------------------------------*/
     /**
@@ -183,6 +228,7 @@ public class DriverBase {
      * @param element
      */
     public void clickElement(WebElement element){
+
         element.click();
     }
 

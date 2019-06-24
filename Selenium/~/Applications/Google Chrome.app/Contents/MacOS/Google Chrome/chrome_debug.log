@@ -1,0 +1,11 @@
+[19106:775:0430/174919.480893:ERROR:native_widget_mac.mm(445)] Not implemented reached in virtual void views::NativeWidgetMac::Maximize()
+[19106:775:0430/174919.523296:ERROR:web_contents_view_mac.mm(487)] Failed to look up NSViewBridgeFactoryHost!
+[19106:775:0430/174919.525372:ERROR:native_widget_mac.mm(384)] Not implemented reached in virtual void views::NativeWidgetMac::Show(ui::WindowShowState, const gfx::Rect &)
+[19106:775:0430/174921.004015:INFO:CONSOLE(8)] "SW registered", source: https://www.google.com/_/chrome/newtab?ie=UTF-8 (8)
+[19106:12547:0430/174921.213738:WARNING:spdy_session.cc(3144)] Received HEADERS for invalid stream 13
+[19106:775:0430/174921.933754:INFO:CONSOLE(1647)] "#######api sendMessageToUpperIframe", source: https://xue.duobeiyun.com/enter (1647)
+[19106:775:0430/174921.938942:INFO:CONSOLE(1135)] "send:dynamic-ppt-error-log", source: https://xue.duobeiyun.com/enter (1135)
+[19106:775:0430/174921.946001:INFO:CONSOLE(1654)] "#######api handleMessage", source: https://xue.duobeiyun.com/enter (1654)
+[19106:12547:0430/174921.951148:WARNING:spdy_session.cc(3144)] Received HEADERS for invalid stream 3
+[19106:775:0430/174926.248259:WARNING:pref_notifier_impl.cc(23)] Pref observer found at shutdown.
+[19106:775:0430/174926.248307:WARNING:pref_notifier_impl.cc(23)] Pref observer found at shutdown.

@@ -1,0 +1,8 @@
+[19162:775:0430/174943.550251:ERROR:native_widget_mac.mm(445)] Not implemented reached in virtual void views::NativeWidgetMac::Maximize()
+[19162:775:0430/174943.624635:ERROR:web_contents_view_mac.mm(487)] Failed to look up NSViewBridgeFactoryHost!
+[19162:775:0430/174943.626768:ERROR:native_widget_mac.mm(384)] Not implemented reached in virtual void views::NativeWidgetMac::Show(ui::WindowShowState, const gfx::Rect &)
+[19162:775:0430/174945.997185:INFO:CONSOLE(1647)] "#######api sendMessageToUpperIframe", source: https://xue.duobeiyun.com/enter (1647)
+[19162:775:0430/174946.001804:INFO:CONSOLE(1135)] "send:dynamic-ppt-error-log", source: https://xue.duobeiyun.com/enter (1135)
+[19162:775:0430/174946.007722:INFO:CONSOLE(1654)] "#######api handleMessage", source: https://xue.duobeiyun.com/enter (1654)
+[19162:775:0430/174950.290554:WARNING:pref_notifier_impl.cc(23)] Pref observer found at shutdown.
+[19162:775:0430/174950.290769:WARNING:pref_notifier_impl.cc(23)] Pref observer found at shutdown.

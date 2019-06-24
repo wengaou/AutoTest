@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="测试套件" duration-ms="11186" started-at="2019-06-24T07:31:09Z" finished-at="2019-06-24T07:31:21Z">
+    <groups>
+    </groups>
+    <test name="测试用例" duration-ms="11186" started-at="2019-06-24T07:31:09Z" finished-at="2019-06-24T07:31:21Z">
+      <class name="com.duobei.selenium.CreateCourseFlash1vn">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.duobei.selenium.CreateCourseFlash1vn@69b0fd6f]" name="beforeClass" is-config="true" duration-ms="1966" started-at="2019-06-24T15:31:09Z" finished-at="2019-06-24T15:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.duobei.selenium.CreateCourseFlash1vn@69b0fd6f]" name="test" duration-ms="9199" started-at="2019-06-24T15:31:11Z" finished-at="2019-06-24T15:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.duobei.selenium.CreateCourseFlash1vn -->
+    </test> <!-- 测试用例 -->
+  </suite> <!-- 测试套件 -->
+</testng-results>

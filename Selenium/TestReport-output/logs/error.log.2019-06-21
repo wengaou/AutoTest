@@ -1,0 +1,2 @@
+[21:21:03:292] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:80) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.name: meeting_name]
+[23:37:03:842] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:118) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.className: createCodeBtn]

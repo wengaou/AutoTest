@@ -3,7 +3,7 @@
 <suite name="测试套件" parallel="false" thread-count="2">
     <test name="测试用例">
         <classes>
-            <class name="com.duobei.selenium.Demo"></class>
+            <class name="com.duobei.selenium.CreateCourse_net"></class>
         </classes>
     </test>
 
@@ -12,7 +12,6 @@
         <listener class-name="com.duobei.selenium.utils.ExtentTestNGIReporterListener"/>
         <!-- 监听失败的用例 -->
         <listener class-name="com.duobei.selenium.utils.RetryListener"/>
-        <!--<listener class-name="TestNGListener"/>-->
     </listeners>
 
 </suite>

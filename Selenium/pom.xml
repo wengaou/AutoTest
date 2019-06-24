@@ -28,6 +28,28 @@
             <version>1.2.17</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.54</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>jna</artifactId>
+            <version>4.4.0-1</version>
+            <scope>compile</scope>
+
+        </dependency>
+
+
 
         <!--引入测试报告相关包-->
         <dependency>
@@ -61,6 +83,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+            <!-- 测试运行器，用于运行测试用例 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -69,10 +92,14 @@
                 <configuration>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <suiteXmlFiles>
+                        <!-- 添加testng.xml文件 -->
                         <suiteXmlFile>.\src\main\resources\testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
+
+
+
         </plugins>
     </build>
 

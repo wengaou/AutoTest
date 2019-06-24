@@ -6,10 +6,10 @@ import org.openqa.selenium.WebElement;
 
 public class BasePage {
 
-    public DriverBase driver;
+    public DriverBase driverBase;
 
-    public BasePage(DriverBase driver){
-        this.driver = driver;
+    public BasePage(DriverBase driverBase){
+        this.driverBase = driverBase;
     }
 
     /**
@@ -18,19 +18,23 @@ public class BasePage {
      * @return
      */
     public WebElement element(By by){
-        return driver.findElement(by);
+        return driverBase.isElementExist(by);
     }
+
+
 
     /**
      * 封装点击
      * @param element
      */
     public void clickElement(WebElement element){
-        if (element != null){
+        if (assertElement(element)){
             element.click();
-        }else {
+        }else{
             System.out.println("元素没有定位到，点击失败！！！");
         }
+
+
     }
 
     /**
@@ -52,6 +56,8 @@ public class BasePage {
      * @return
      */
     public boolean assertElement(WebElement element){
+
+
         return element.isDisplayed();
     }
 

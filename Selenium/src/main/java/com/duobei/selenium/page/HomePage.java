@@ -10,27 +10,27 @@ public class HomePage extends BasePage {
     }
 
     /**
-     * 获取首页登录按钮
+     * 获取用户名输入框
      * @return
      */
     public WebElement getLoginButtonElement(){
-        return element(getByLocator.getLocator("homePage_LoginButton"));
+        return element(getByLocator.getLocator("loginPage_Username"));
     }
 
     /**
-     * 获取首页登录状态信息
+     * 获取密码输入框
      * @return
      */
     public WebElement getLoginInfoElement(){
-        return element(getByLocator.getLocator("homePage_LoginInfo"));
+        return element(getByLocator.getLocator("loginPage_Password"));
     }
 
     /**
-     * 获取首页登录的用户名
+     * 获取登录按钮
      * @return
      */
     public WebElement getUserNameElement(){
-        return element(getByLocator.getLocator("homePage_UserName"));
+        return element(getByLocator.getLocator("loginPage_LoginButton"));
     }
 
 }

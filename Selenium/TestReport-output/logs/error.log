@@ -1,0 +1,5 @@
+[10:06:50:304] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:130) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.className: show]
+[10:07:20:714] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:130) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.name: username]
+[10:07:51:216] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:130) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.name: username]
+[15:36:11:838] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:134) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.className: btn_login]
+[15:39:35:047] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:135) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.xpath: //button[@type='登 录']]

@@ -13,10 +13,10 @@ import java.util.Iterator;
  */
 public class TestNGListener extends TestListenerAdapter {
 
+
     @Override
     public void onFinish(ITestContext testContext) {
-        DriverBase.log.info("Test Finish");
-
+        System.out.println("Test Finish");
         Iterator<ITestResult> listOfFailedTests = testContext.getFailedTests().getAllResults().iterator();
         while (listOfFailedTests.hasNext()) {
             ITestResult failedTest = listOfFailedTests.next();
