@@ -2,14 +2,13 @@
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/utils/RetryListener.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/base/SelectDriver.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/base/DriverBase.java
-/Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/Demo2.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/handle/LoginPageHandle.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/utils/PropertiesUtil.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/utils/ExtentTestNGIReporterListener.java
-/Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/CreateCourseFlash1vn.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/page/LoginPage.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/utils/getByLocator.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/cases/CaseBase.java
+/Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/CreateCourse_net.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/utils/MD5Utils.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/SuperPatrickTest.java
 /Users/zhangwengao/Desktop/workspace/duobei/AutoTest/Selenium/src/main/java/com/duobei/selenium/cases/SuiteTestLogin.java

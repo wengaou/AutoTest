@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="测试套件" duration-ms="11186" started-at="2019-06-24T07:31:09Z" finished-at="2019-06-24T07:31:21Z">
+  <suite name="测试套件" duration-ms="15913" started-at="2019-06-26T01:57:45Z" finished-at="2019-06-26T01:58:01Z">
     <groups>
     </groups>
-    <test name="测试用例" duration-ms="11186" started-at="2019-06-24T07:31:09Z" finished-at="2019-06-24T07:31:21Z">
-      <class name="com.duobei.selenium.CreateCourseFlash1vn">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.duobei.selenium.CreateCourseFlash1vn@69b0fd6f]" name="beforeClass" is-config="true" duration-ms="1966" started-at="2019-06-24T15:31:09Z" finished-at="2019-06-24T15:31:11Z">
+    <test name="测试用例" duration-ms="15913" started-at="2019-06-26T01:57:45Z" finished-at="2019-06-26T01:58:01Z">
+      <class name="com.duobei.selenium.CreateCourse_net">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.duobei.selenium.CreateCourse_net@69b0fd6f]" name="beforeClass" is-config="true" duration-ms="1725" started-at="2019-06-26T09:57:45Z" finished-at="2019-06-26T09:57:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.duobei.selenium.CreateCourseFlash1vn@69b0fd6f]" name="test" duration-ms="9199" started-at="2019-06-24T15:31:11Z" finished-at="2019-06-24T15:31:21Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.duobei.selenium.CreateCourse_net@69b0fd6f]" name="test" duration-ms="14171" started-at="2019-06-26T09:57:47Z" finished-at="2019-06-26T09:58:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- com.duobei.selenium.CreateCourseFlash1vn -->
+      </class> <!-- com.duobei.selenium.CreateCourse_net -->
     </test> <!-- 测试用例 -->
   </suite> <!-- 测试套件 -->
 </testng-results>
