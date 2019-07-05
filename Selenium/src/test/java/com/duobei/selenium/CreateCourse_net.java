@@ -34,7 +34,7 @@ public class CreateCourse_net {
 
     private String password = "zhang@888";
 
-    public static Logger log = Logger.getLogger(CreateCourse_net.class);
+    public static Logger log = Logger.getLogger(com.duobei.seleniums.CreateCourse_net.class);
 
 
     public static void main(String[] args) {

@@ -1,5 +1,6 @@
 package com.duobei.selenium.utils;
 
+import com.duobei.seleniums.utils.TestNGRetry;
 import org.testng.IAnnotationTransformer;
 import org.testng.IRetryAnalyzer;
 import org.testng.annotations.ITestAnnotation;

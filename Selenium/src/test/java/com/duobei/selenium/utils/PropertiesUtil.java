@@ -44,7 +44,7 @@ public class PropertiesUtil {
     public String getProperties(String key)  {
         if (pro.containsKey(key)) {
             String kyes = pro.getProperty(key);
-            System.out.println(kyes);
+            //System.out.println(kyes);
             return kyes;
         }else {
             System.out.println("你获取的key值不对");

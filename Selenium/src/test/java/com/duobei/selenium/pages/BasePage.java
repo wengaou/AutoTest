@@ -71,19 +71,17 @@ public class BasePage {
 
 
 
-
-
     /**
      * 定位element
      * @param by
      * @return
      */
     public WebElement element(By by){
-        WebElement element = null;
-        if (isElementDisplay(by)){
-            element = isElementExist(by);
+
+        if (isElementDisplay(by) != true){
+            return null;
         }
-        return element;
+        return driverBase.findElement(by);
 
     }
 
@@ -97,7 +95,6 @@ public class BasePage {
      * @param element
      */
     public void clickElement(WebElement element){
-
 
         if (assertElement(element)){
             element.click();
@@ -127,10 +124,6 @@ public class BasePage {
      * @return
      */
     public boolean assertElement(WebElement element){
-
-
-
-
 
         return element.isDisplayed();
     }

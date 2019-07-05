@@ -3,15 +3,15 @@
 <suite name="测试套件" parallel="false" thread-count="2">
     <test name="测试用例">
         <classes>
-            <class name="com.duobei.selenium.CreateCourse_net"></class>
+            <class name="com.duobei.seleniums.CreateCourse_net"></class>
         </classes>
     </test>
 
     <listeners>
         <!-- 监听测试，生成测试报告 -->
-        <listener class-name="com.duobei.selenium.utils.ExtentTestNGIReporterListener"/>
+        <listener class-name="com.duobei.seleniums.utils.ExtentTestNGIReporterListener"/>
         <!-- 监听失败的用例 -->
-        <listener class-name="com.duobei.selenium.utils.RetryListener"/>
+        <listener class-name="com.duobei.seleniums.utils.RetryListener"/>
     </listeners>
 
 </suite>
