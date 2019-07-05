@@ -19,6 +19,7 @@ import java.util.*;
  * 测试报告封装类
  */
 public class ExtentTestNGIReporterListener implements IReporter {
+
     //生成的路径以及文件名
     private static final String OUTPUT_FOLDER = "TestReport-output/";
     private static final String FILE_NAME = "index.html";

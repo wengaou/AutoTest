@@ -1,8 +1,0 @@
-[00:30:29:715] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:126) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.xpath: //*[@span='确定支付']]
-[01:22:39:069] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:139) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.xpath: //*button[@type='button']]
-[01:40:17:725] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:143) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.cssSelector: ui-dialog-buttonset#ui-dialog-buttonset>button>span]
-[02:09:55:501] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:160) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.name: username1]
-[04:07:22:338] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:173) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.className: show]
-[04:08:19:744] [ERROR] - com.duobei.selenium.CreateCourseFlash1vn.findElement(CreateCourseFlash1vn.java:173) - --->>查找元素超时!!! 30 秒之后仍未找到元素 ：[By.className: show]
-[04:45:55:375] [ERROR] - com.duobei.selenium.Demo.test(Demo.java:85) - error---------
-[04:45:56:636] [ERROR] - com.duobei.selenium.Demo.afterClass(Demo.java:194) - error---------

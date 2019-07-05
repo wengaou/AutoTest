@@ -13,7 +13,6 @@ public class DriverBase {
 
     public static Logger log = Logger.getLogger(DriverBase.class);
 
-    private int TimeOut = 30;
 
     /**
      * 构造方法：
@@ -40,7 +39,6 @@ public class DriverBase {
      */
     public void getUrl(String urlText, String url) {
         driver.get(url);
-        log.info("--->>" +urlText+ " " +url);
     }
 
 
@@ -55,6 +53,8 @@ public class DriverBase {
     public void getUrl(String url){
 
         driver.get(url);
+        log.info("--->>" +url);
+
 
     }
 

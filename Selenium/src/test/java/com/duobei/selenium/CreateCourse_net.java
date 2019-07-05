@@ -37,11 +37,6 @@ public class CreateCourse_net {
     public static Logger log = Logger.getLogger(com.duobei.seleniums.CreateCourse_net.class);
 
 
-    public static void main(String[] args) {
-
-        System.out.println("3333333333333333333333");
-
-    }
 
     @Test
     public void test() {

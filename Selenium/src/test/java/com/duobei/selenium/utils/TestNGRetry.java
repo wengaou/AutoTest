@@ -10,7 +10,7 @@ import org.testng.ITestResult;
 public class TestNGRetry implements IRetryAnalyzer {
 
     private int retryCount = 1; // 定义重跑次数
-    private int maxRetryCount=5; // 定义最大重跑次数
+    private int maxRetryCount=2; // 定义最大重跑次数
 
 
     public boolean retry(ITestResult result) {

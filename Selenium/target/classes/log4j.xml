@@ -5,7 +5,7 @@
     <appender name="consoleAppender" class="org.apache.log4j.ConsoleAppender">
         <param name="Threshold" value="Info"/>
         <!-- DEBUG信息不输出到控制台 -->
-        <!-- <param name="Threshold" value="DEBUG"/> -->
+<!--         <param name="Threshold" value="DEBUG"/>-->
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern" value="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
         </layout>

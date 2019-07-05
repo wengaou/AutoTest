@@ -14,6 +14,7 @@ public class SuiteTestLogin extends CaseBase {
 
     public LoginProcess loginProcess;
 
+
     @BeforeClass
     public void BeforeClass(){
 
@@ -28,6 +29,8 @@ public class SuiteTestLogin extends CaseBase {
 
         driverBase.getUrl("http://www.duobeiyun.com/login");
         loginProcess.login("13501331103","zhang@888");
+
+
 
     }
 
