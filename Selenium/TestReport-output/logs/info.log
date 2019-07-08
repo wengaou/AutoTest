@@ -1,9 +1,1 @@
-[19:47:18:530] [INFO] - com.duobei.selenium.cases.SuiteTestLogin.loginTest_001(SuiteTestLogin.java:35) - 1111111
-[19:47:27:376] [INFO] - com.duobei.selenium.cases.SuiteTestLogin.loginTest_001(SuiteTestLogin.java:35) - 1111111
-[19:50:04:351] [INFO] - com.duobei.selenium.base.DriverBase.getUrl(DriverBase.java:56) - --->>http://www.duobeiyun.com/login
-[19:51:16:464] [INFO] - com.duobei.selenium.base.DriverBase.getUrl(DriverBase.java:56) - --->>http://www.duobeiyun.com/login
-[19:51:58:090] [INFO] - com.duobei.selenium.base.DriverBase.getUrl(DriverBase.java:56) - --->>http://www.duobeiyun.com/login
-[19:56:14:839] [INFO] - com.duobei.selenium.base.DriverBase.getUrl(DriverBase.java:56) - --->>http://www.duobeiyun.com/login
-[20:00:10:046] [INFO] - com.duobei.selenium.base.DriverBase.getUrl(DriverBase.java:56) - --->>http://www.duobeiyun.com/login
-[20:02:49:949] [INFO] - com.duobei.selenium.base.DriverBase.getUrl(DriverBase.java:56) - --->>http://www.duobeiyun.com/login
-[20:03:11:164] [INFO] - com.duobei.selenium.base.DriverBase.getUrl(DriverBase.java:56) - --->>http://www.duobeiyun.com/login
+[16:18:31:867] [INFO] - com.duobei.selenium.base.DriverBase.getUrl(DriverBase.java:56) - --->>http://www.duobeiyun.com/login
